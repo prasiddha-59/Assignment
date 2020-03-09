@@ -1,4 +1,4 @@
-To check a number is palindrome or not
+//To check a number is palindrome or not
 #include <stdio.h>
 int main() {
     int n, reversedN = 0, remainder, originalN;
@@ -21,3 +21,18 @@ int main() {
 
     return 0;
 }
+// To check even or odd number 
+#include <stdio.h>
+int main()
+{
+  int n;
+
+  printf("Enter an integer\n");
+  scanf("%d", &n);
+
+  if (n%2 == 0)
+    printf("Even\n");
+  else
+    printf("Odd\n");
+
+  return 0;
